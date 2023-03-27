@@ -1,0 +1,77 @@
+body{
+    color: var(--cor-fonts);
+    background: var(--color-predominante) url(../images/bg-desktop.svg) no-repeat;
+    height: 100vh;
+    padding: 60px 0;
+}
+.container-principal{
+    display: flex;
+    width: 100vw;
+    gap:60px;
+}
+/*--LOGO/ILLUSTRATION--*/
+.aba-logos{
+    margin-left: 65px;
+}
+.img-logo img{
+    width: 200px;
+    margin-bottom: 60px;
+}
+.img-capa img{
+    width: 100%;
+}
+
+/*--ABA-INFORMATIVO--*/
+.aba-informativo {
+    width: 460px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+
+}
+.titulo{
+    margin-top: 150px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.2rem;
+}
+.descricao{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    margin-top: 50px;   
+}
+input{
+    margin-top: 30px;
+    font-size: 1.0rem;
+    color: var(--color-predominante);
+    text-align: center;
+    padding: 15px 0px;
+    border-radius: 50px;
+    border: none;
+    transition: 0.3s;
+}
+input:hover{
+    color:var(--cor-fonts) ;
+    background-color: var(--soft-destacar);
+}
+/*--SOCIAL--*/
+.social{
+    display: flex   ;
+    margin-left: 300px;
+    margin-top: 150px;
+}
+.social i{
+    width:35px;
+    height:35px;
+    text-align: center;
+    color:var(--cor-fonts);
+    font-size: 1.0rem;
+    border:solid 0.1rem var(--cor-fonts);
+    border-radius: 50px;
+    padding:0.5rem 0;
+    transition: 0.3s;
+    margin-left: 9px;
+}
+.social i:hover{
+    color:var(--soft-destacar);
+    border-color:var(--soft-destacar);
+}

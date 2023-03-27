@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 3 - Formulário </title>
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/estilo.css">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+<body>    
+        <section class="informativo">
+            <h1>FICOU COM DÚVIDA?<br>NOS MANDE UMA MENSAGEM!</h1>
+            <p>caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em contato em menos de
+                24h.</p>
+        </section>
+        <div class="principal">
+            <input class="pergunta" type="text"  placeholder="Nome *"><br>
+            <span class="resp-obr">campo obrigatório </span>
+            <input class="pergunta" type="text"  placeholder="Email *"><br>
+            <span class="resp-obr">campo obrigatório</span>
+            <input class="pergunta" type="Number"  placeholder="Telefone *"><br>
+            <span class="resp-obr">campo obrigatório</span>
+            <textarea class="pergunta" name="" id="" cols="20" rows="7" placeholder="Mensagem *"></textarea><br>
+            <span class="resp-obr">campo obrigatório</span>
+            <h2 class="aviso">*campos obrigatórios</h2>
+
+            <button class="botao-enviar" id="botao-enviar">Enviar</button>
+        </div>
+        <script src="src/js/painel.js"></script>
+    
+</body>
+
+</html>

@@ -1,0 +1,129 @@
+body{
+    /* background: #1d0e1c; */
+    background-image: linear-gradient( to right, rgb(38, 37, 37), rgb(47, 5, 45), rgb(47, 7, 42), rgb(35, 35, 36) );
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+}
+
+#principal{   
+    margin: 5px auto;
+    padding: 10px 60px;
+    width: 900px;
+    background:   #1B1A1F url(../imagens/foto-capa.PNG) no-repeat  top right;
+    background-position: right 07% top 0%;
+    border-radius: 30px;
+    box-shadow: 0px 1px 8px 1px #ffffff;
+}
+/*-------Dados-------*/
+#area-dados{
+    height: 450px;
+    border-bottom:solid 5px #787777;
+}
+.dados, .dados{
+    margin-top: 30px;
+}
+.contatos{
+    margin-top: 70px;
+    width: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.dados h2{
+    font-size: 35px;
+}
+.nome-titulo{
+    font-size: 40px;
+}
+.dados p{
+    font-size: 0.7em;
+    margin-top: 30px;
+    width: 520px;
+}
+.apelido{
+
+    width: 530px;
+    text-align: right;
+}
+/*-------Skillz-------*/
+#area-formação{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    border-bottom: 2px solid rgb(113, 112, 112);
+    padding-bottom: 50px;    
+}
+.conhecimento{
+    text-align: center;
+    margin-top: 15px;   
+}
+.conhecimento h2{
+    color: rgb(146, 48, 135);
+}
+.conhecimento p{
+    margin-top: 5px;
+}
+/*-------Area Projetos-------*/
+#area-projetos{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+}
+#area-projetos h1{
+    font-size: 35px;
+}
+#area-projetos p{
+    font-size: 0.8em;
+}
+.destaque-trab {
+    color: rgb(146, 48, 135);
+    font-weight: 700;
+}
+/*-------TRABALHOS-------*/
+#trabalhos{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:40px 60px;
+}
+.projetos{
+    margin-top: 20px;
+    font-size: 0.9em;
+}
+.projetos img{
+    border-radius: 15px;
+    border: solid 5px rgb(100, 39, 93);
+    border-radius: 20px;
+}
+.projetos img:hover{
+    box-shadow: 0 0 35px 1px  rgb(253, 251, 251);
+    -webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+        transform: scale(1.1);
+}
+/*-------SOCIAL-------*/
+#rede-social{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.social i{
+    width:30px;
+    height:30px;
+    text-align: center;
+    color:#ffffff;
+    font-size: 1.0rem;
+    border:solid 0.1rem var(--cor-fonts);
+    border-radius: 50px;
+    padding:0.5rem 0;
+    transition: 0.3s;
+}
+.social i:hover{
+    background-color: rgb(62, 11, 59);
+    box-shadow: 0 0 5px 5px rgb(255, 255, 255);
+}
+#rodape{
+    margin-top: 40px;
+    text-align: center;
+    font-size: 0.9em;
+}

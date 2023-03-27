@@ -1,0 +1,47 @@
+@media (max-width:576px){
+    .principal{
+        margin: auto;
+        width: 400px;
+        height: 100vh;
+        background: url(../imagens/fundo.png) repeat-x;
+    }
+    
+    .secoes-noticias{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .menu-navegacao, .menu-navegacao ul{
+        border: solid red 2px;
+        width: 100px;
+        display: flex;
+        flex-direction: column;
+        background: none;
+        
+        
+    }
+
+    .menu-navegacao ul a, .ultimo-divisor a{
+        border: 2px solid rgb(5, 255, 247);
+        width: 200px;
+        background: rgb(207, 4, 4);
+        color: rgb(255, 255, 255);
+    }
+
+    .cadastro, .entrevistas-destaques, .noticias-recentes, .postagens-recentes, .lista-entrevistados li {
+        background-color:var(--cor-vazio);
+        display: flex;
+        flex-direction: column;
+    }
+    .secoes-noticias{
+        width: 350px;
+    }
+    .cabecalho{
+        background: url(../imagens/detalhe-topo.png) no-repeat right bottom;
+       
+        width: 350px;
+        height: 180px;  
+        margin: auto;   
+        display: grid;
+    }
+}

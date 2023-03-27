@@ -1,0 +1,146 @@
+.principal{
+    height: 100vh;
+    background: url(../imagens/fundo.png) repeat-x;
+}
+.secoes-noticias{
+    width: 760px;
+    margin: 60px auto;
+    display: grid;
+    grid: 
+    "entrevistas ultima-entrevista destaque" 300px
+    "entrevistas mundo noticias-recentes" 325px
+    "rodape rodape rodape" 50px / 
+    180px 275px 275px ;
+    grid-gap: 20px;
+}
+/*--PADROES--*/
+.caixas{
+    padding: 6px;
+    background: url(../imagens/fundo-caixa.png);
+}
+.entrevistas, .lista-entrevistados, .postagens-recentes, .entrevistas-destaques {
+    margin-top: 0px;
+}
+.cadastro, .entrevistas-destaques, .noticias-recentes, .postagens-recentes, .lista-entrevistados li {
+    background-color:var(--cor-vazio);
+}
+.menu-navegacao ul a, .titulo-caixas, .lista-entrevistados li, .botao-cadastrar, .entrevistas-destaques h3, .rodape{
+    color:var(--cor-vazio);
+}
+.menu-navegacao ul a, .lista-entrevistados li, .cadastrar, .entrevistas-destaques p, .entrevistas-destaques a, .rodape{
+    font-size: var(--font-entrevistas);
+}
+
+/*-----CABECALHO-----*/
+.cabecalho{
+    background: url(../imagens/detalhe-topo.png) no-repeat right top;
+    width: 770px;
+    height: 180px;
+    margin: auto;   
+    display: grid;
+}
+.cabecalho img{
+    margin-top: 25px;
+}
+
+/*-----MENU DE NAVEGACAO-----*/
+.menu-navegacao{
+    width: 645px;
+    background-color:var(--menu-aba);
+    display: flex;
+    margin-top: 18px;
+    height: 45px;
+}
+.menu-navegacao ul{
+    display: flex;
+    justify-content:center;
+    align-items: center;       
+}
+.menu-navegacao ul a{
+    font-size: var(--font-entrevistas);
+    padding: 0px 22.5px ;
+    background: url(../imagens/divisor.png) no-repeat right ;
+}
+.menu-navegacao a:hover{
+    color: #56081e;  
+}
+.ultimo-divisor a:last-child{
+    background: none;
+}
+
+/*----LAYOUT CORPO LATERAL----*/
+.titulo-caixas{
+    padding: 6px;
+    background-color:var(--desc-abas);
+}
+.lista-entrevistados li {
+    padding: 10px;
+    border-bottom: solid 1px var(--cor-destacados);
+}
+.lista-entrevistados a:hover{
+    background: url(../imagens/marcador.png) no-repeat left center;
+    padding-left: 20px;
+    color:var(--cor-destacados) ;
+}
+
+.cadastrar {
+    margin-top: 10px;
+}
+.botao-cadastrar{
+    border: none;
+    background-color:var(--menu-aba);
+    padding: 8px;
+}
+
+/*----Layout destaques----*/
+.entrevistas-destaques{
+    padding: 5px 5px;
+}
+.entrevistas-destaques img{
+    width: 255px;
+    border: solid 2px var(--cor-destacados);
+}
+
+.entrevistas-destaques a{
+   
+    color: var(--menu-aba);
+    text-decoration: underline;
+}
+.entrevistas-destaques h3{
+    display: inline-grid;
+    padding: 3px;
+    background-color: var(--menu-aba);
+}
+.destaque h3{
+    background-color: rgb(199, 2, 2);
+    color: black;
+}
+
+/*----Layout Noticias MUNDO/Recentes----*/
+
+.noticias-recentes{
+    margin-top: 1px;
+    padding: 6px 6px ;
+}
+.postagens-recentes{
+    padding: 8px;
+    display: flex;
+    border-bottom: solid 1px var(--cor-destacados);
+}
+.postagens-recentes img{
+    width: 80px;
+}
+.dados{
+    margin: 0 5px;
+    font-size: 1.1em;
+}
+.postagens-recentes h3{
+    color:var(--desc-abas);
+}
+/*----rodape----*/
+.rodape{
+    padding: 5px;
+    background-color:var(--desc-abas);
+    text-align: center;
+    line-height: 1.9;
+}

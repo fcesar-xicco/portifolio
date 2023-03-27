@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+    color: #ffffff;
+}
+.principal{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    max-width: 735px;
+    height: 400px;
+    display: flex;
+    border-radius: 10px;
+
+}
+.aba-sedans{
+    background-color: #dc810a;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.aba-suvs{
+    background-color: hsl(182, 94%, 31%);
+}
+.aba-luxury{
+    background-color: hsl(228, 32%, 32%);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.descricao{
+    max-width: 245px;
+    height:400px;
+    font-size: 20px;
+    padding: 40px;
+    position: relative;
+    
+}
+.descricao .botao{
+    width: 115px;
+    height: 40px;
+    background-color: #ffffff;
+    border-radius: 30px;
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.aba-sedans .leia-mais{
+    color: #dc810a;
+    font-size: 16px;
+}
+.aba-suvs .leia-mais{
+    color: hsl(228, 89%, 68%);
+    font-size: 16px;
+}
+.aba-luxury .leia-mais{
+    color: hsl(228, 32%, 32%);
+    font-size: 16px;
+}
+.titulo{
+    font-size: 25px;
+    padding: 30px 0px;
+}
+.informacao{
+    font-size: 14px;
+}

@@ -1,0 +1,58 @@
+
+main{
+    background-color: hsl(30, 38%, 92%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.anuncio{
+    background-color: #ffffff   ;
+    width: 600px;
+    height: 449px;
+    display: flex;
+    border-radius: 10px;
+}
+.fotos img{
+    height: 100%;
+}
+.informacoes{
+    display: flex;
+    flex-direction: column;
+    padding: 0 8px 00 0 ;
+
+}
+.categoria {
+    font-size: 12px;
+}
+.nome-perfume{
+    font-size: 30px;
+}
+.descricao{
+    font-size: 1.8rem;
+    color: rgb(176, 176, 176);
+}
+.item{
+    padding: 25px 20px 0;
+}
+.valores{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly   ;
+}
+.valor{
+    font-size: 35px;
+    font-weight: bolder;
+    color: rgb(83, 110, 83);
+}
+.botao{
+    text-align: center;
+    line-height: 2;
+    font-size: 1.6em;
+    color: #ffffff;
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: rgb(83, 110, 83);
+    margin-left:50px;
+}

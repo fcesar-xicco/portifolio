@@ -1,0 +1,53 @@
+@media (max-width: 776px) {
+    body{
+        color: var(--cor-fonts);
+        background: var(--color-predominante) url(../images/bg-mobile.svg) no-repeat;
+        height: 100vh;
+        padding: 20px 0;
+        
+
+    }
+    .img-logo img{
+        padding: 20px 0;
+        width: 150px;
+        margin-bottom:20px;
+    }
+    .container-principal{
+        margin: 0px;
+        width: 100%;
+        height: 800px;
+        padding: 0px 18px;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .aba-logos{
+        width: 100%;
+        margin: 0;
+    }
+    .aba-informativo {
+        margin: 0;
+        width: 100%;
+        height: 100vh;
+        text-align: center;
+        flex-direction: column;
+    }
+    .titulo{
+        margin-top: 10px;
+        font-size: 1.6rem;
+    }
+    .descricao{
+        margin-top: 10px;
+        font-size: 1.05rem;
+        line-height: 1.5;
+    }
+    .social{
+        margin: 50px 0px;
+        display: flex;
+        justify-content: center;
+    }
+
+
+
+
+}

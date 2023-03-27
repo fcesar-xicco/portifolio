@@ -1,0 +1,102 @@
+html{
+    font-family: 'League Spartan', sans-serif;
+}
+
+main{
+    max-width: 900px;
+    max-height:645px ;
+    margin: auto;
+    display: grid;
+    grid-template-areas: 
+    "informacoes informacoes"
+    "postagens postagens"
+    ;
+
+}
+
+.informacoes{
+    grid-area: informacoes;
+    display: flex;
+}
+.postagens{
+    grid-area: postagens;
+    display: flex;
+}
+.info{
+    width: 380px;
+    height: 320px;
+}
+.info h1{
+    color:#511F50;
+    font-size: 45px;
+    font-weight: bold;
+}
+.rated{
+   display: flex;
+   flex-direction: column; 
+   justify-content: center;
+
+}
+.notas{
+    width: 360px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#F6F3F7;
+    margin: 10px;
+    padding: 2px;
+    border-radius: 5px;
+}
+.notas p{
+    margin: 15px;
+    color:#511F50;
+    font-weight: bold;
+    font-size: 15px;
+}
+.notas img{
+    margin: 3px;
+}
+.rates1{
+    margin-left: 60px;
+}
+.rates2{
+    margin-left: 100px;
+}
+.rates3{
+    margin-left: 140px;
+}
+/*----------POSTAGEM-----------*/
+.post{
+    max-height: 130px;
+    margin: 10px;
+    background-color:#511F50;
+    color: #ffffff;
+    padding: 25px;
+    border-radius: 10px;
+}
+.post img{
+    width: 35px;
+    border-radius: 50px;
+}
+.post p{
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+.descricao{
+    display: flex;
+}
+.nomes p{
+    margin: 0 10px;
+}
+.verificado{
+    color: #ec31e9;
+}
+.post2{
+    margin-top: 30px;
+}
+.post3{
+    margin-top: 60px;
+}
+.feedback{
+    line-height: 1.1;
+}
