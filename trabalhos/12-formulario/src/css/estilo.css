@@ -2,7 +2,7 @@
     border: solid red 1px;
 }  */
 
-body{
+.geral{
     background: #4589fa url(../imagens/bg-repeat.jpg);
     background-repeat: repeat-x;
     min-width: 100vw;
@@ -11,6 +11,7 @@ body{
     justify-content: center;
     align-items: center;
 }
+
 .informativo h1{
     color: #ffffff;
     font-size: 20px;
@@ -80,4 +81,11 @@ textarea{
 .mostrar-obrigatorio{
     visibility: visible;
 
+}
+/*-----------------RESPONSIVEL-----------------*/
+@media (max-width:550px) {
+    .geral{
+        display: flex;
+        flex-direction: column;
+    }
 }
