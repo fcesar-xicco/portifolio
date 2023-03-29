@@ -3,6 +3,7 @@ body{
     background-image: linear-gradient( to right, rgb(38, 37, 37), rgb(47, 5, 45), rgb(47, 7, 42), rgb(35, 35, 36) );
     color: #ffffff;
     font-family: 'Poppins', sans-serif;
+    padding: 1px;
 }
 
 #principal{   
@@ -53,16 +54,27 @@ body{
     border-bottom: 2px solid rgb(113, 112, 112);
     padding-bottom: 50px;    
 }
+.area-conhecimento{
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+}
 .conhecimento{
     text-align: center;
-    margin-top: 15px;   
+    margin-top: 15px;
+    cursor: pointer;     
+}
+.conhecimento h2:hover{
+    color: #ffffff;
+    transition: 0.5s;
 }
 .conhecimento h2{
-    color: rgb(146, 48, 135);
+    color: rgb(146, 48, 135); 
 }
 .conhecimento p{
     margin-top: 5px;
 }
+
 /*-------Area Projetos-------*/
 #area-projetos{
     margin-top: 60px;
@@ -98,15 +110,30 @@ body{
 .projetos img:hover{
     box-shadow: 0 0 35px 1px  rgb(253, 251, 251);
     -webkit-transform: scale(1.2);
-        -ms-transform: scale(1.2);
-        transform: scale(1.1);
+    -ms-transform: scale(1.2);
+    transform: scale(1.1);
 }
+
+.esconder-filtro{
+    display: none;
+}
+.mostrar-filtro{
+    display: block;
+}
+.selecionado{
+    color: #ffffff;
+}
+.tirar-selecionado{
+    color: rgb(146, 48, 135);
+}
+
 /*-------SOCIAL-------*/
 #rede-social{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 .social i{
     width:30px;
     height:30px;
