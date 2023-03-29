@@ -3,7 +3,6 @@ body{
     background-image: linear-gradient( to right, rgb(38, 37, 37), rgb(47, 5, 45), rgb(47, 7, 42), rgb(35, 35, 36) );
     color: #ffffff;
     font-family: 'Poppins', sans-serif;
-    padding: 1px;
 }
 
 #principal{   
